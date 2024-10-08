@@ -1,2 +1,2 @@
 # odin-landing-page
-landing page project for foundations course, the odin project
+Landing page project for the foundations course from [The Odin Project](https://www.theodinproject.com/).
