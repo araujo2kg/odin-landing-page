@@ -70,6 +70,7 @@ button {
 .header-image img {
     width: 450px;
     height: 215px;
+    border-radius: 5px;
 }
 
 nav {
@@ -143,6 +144,25 @@ nav a {
 
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 400px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    align-self: center;
+}
+
+.quote-author {
+    font-size: 25px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 70px;
 }
 
 .signup {
