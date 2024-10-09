@@ -20,17 +20,63 @@ header {
     flex-direction: column;
 }
 
-header img {
-    width: 400px;
-    height: auto;
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 0 150px 0;
+}
+
+.header-content {
+    flex: 0 1 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.header-content h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.header-content p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 6px 24px;
+    border-radius: 5px;
+    border:#3882F6;
+}
+
+.header-image {
+    display: flex;
+    width: 500px;
+}
+
+.header-image img {
+    width: 450px;
+    height: 215px;
 }
 
 nav {
     display: flex;
     align-items: center;
     padding: 15px;
-    margin: 0 300px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .logo {
@@ -56,6 +102,43 @@ nav a {
 
 .illustrations {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 0 0 120px 0;
+}
+
+.illustrations h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.card {
+    flex: 0 1 150px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-image {
+    flex: 0 1 auto;
+}
+
+.card-image img {
+    width: 120px;
+    height: auto;
 }
 
 .quote {
