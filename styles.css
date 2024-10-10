@@ -121,11 +121,11 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 70px;
+    gap: 100px;
 }
 
 .card {
-    flex: 0 1 150px;
+    flex: 0 1 200px;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -134,12 +134,16 @@ nav a {
 }
 
 .card-image {
-    flex: 0 1 auto;
+    flex: 1 1 auto;
 }
 
 .card-image img {
-    width: 120px;
+    width: 150px;
     height: auto;
+}
+
+.card-text {
+    font-size: 20px;
 }
 
 .quote {
