@@ -2,12 +2,15 @@ html {
     box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: inherit;
 }
 
 body {
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -15,7 +18,7 @@ body {
 }
 
 header {
-    background-color: #1F2937;
+    background-color: #1f2937;
     display: flex;
     flex-direction: column;
 }
@@ -39,7 +42,7 @@ header {
 
 .header-content h1 {
     font-size: 48px;
-    color: #F9FAF8;
+    color: #f9faf8;
     font-weight: 900;
     margin: 0;
     padding: 0;
@@ -47,19 +50,19 @@ header {
 
 .header-content p {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #e5e7eb;
     margin: 0;
     padding: 0;
 }
 
 button {
-    background-color: #3882F6;
+    background-color: #3882f6;
     color: white;
     font-weight: bold;
     font-size: 18px;
     padding: 6px 24px;
     border-radius: 10px;
-    border:#3882F6;
+    border: #3882f6;
 }
 
 .header-image {
@@ -82,7 +85,7 @@ nav {
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #f9faf8;
     font-weight: 900;
 }
 
@@ -97,9 +100,8 @@ nav ul {
 nav a {
     text-decoration: none;
     font-size: 18px;
-    color: #E5E7EB;
+    color: #e5e7eb;
 }
-
 
 .illustrations {
     background-color: white;
@@ -113,7 +115,7 @@ nav a {
 
 .illustrations h2 {
     font-size: 36px;
-    color: #1F2937;
+    color: #1f2937;
     font-weight: 900;
 }
 
@@ -147,7 +149,7 @@ nav a {
 }
 
 .quote {
-    background-color: #E5E7EB;
+    background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -178,7 +180,7 @@ nav a {
 }
 
 .signup-card {
-    background-color: #3882F6;
+    background-color: #3882f6;
     border-radius: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -191,7 +193,8 @@ nav a {
     border: solid white;
 }
 
-.signup p, .signup h3 {
+.signup p,
+.signup h3 {
     margin: 0;
     padding: 0;
 }
@@ -203,12 +206,12 @@ nav a {
 }
 
 .signup p {
-    color: #E5E7EB;
+    color: #e5e7eb;
     font-size: 18px;
 }
 
 footer {
-    background-color: #1F2937;
+    background-color: #1f2937;
     margin-top: auto;
     color: white;
     display: flex;
@@ -217,4 +220,3 @@ footer {
     align-items: center;
     font-size: 21px;
 }
-
